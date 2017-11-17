@@ -1,0 +1,2384 @@
+Started GET "/" for 127.0.0.1 at 2017-08-24 14:45:25 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/railties-5.0.5/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 16ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 14:46:44 +0300
+  
+LoadError (Unable to autoload constant InboxController, expected /home/andriy/FREE/postfix/app/controllers/inbox_controller.rb to define it):
+  
+activesupport (5.0.5) lib/active_support/dependencies.rb:512:in `load_missing_constant'
+activesupport (5.0.5) lib/active_support/dependencies.rb:203:in `const_missing'
+activesupport (5.0.5) lib/active_support/inflector/methods.rb:268:in `const_get'
+activesupport (5.0.5) lib/active_support/inflector/methods.rb:268:in `block in constantize'
+activesupport (5.0.5) lib/active_support/inflector/methods.rb:266:in `each'
+activesupport (5.0.5) lib/active_support/inflector/methods.rb:266:in `inject'
+activesupport (5.0.5) lib/active_support/inflector/methods.rb:266:in `constantize'
+activesupport (5.0.5) lib/active_support/dependencies.rb:583:in `get'
+activesupport (5.0.5) lib/active_support/dependencies.rb:614:in `constantize'
+actionpack (5.0.5) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.0.5) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (5.0.5) lib/action_dispatch/routing/route_set.rb:30:in `serve'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.5) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.5) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.5) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.5) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.5) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.7ms)
+Started GET "/" for 127.0.0.1 at 2017-08-24 14:47:08 +0300
+Processing by InboxController#index as HTML
+Completed 406 Not Acceptable in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (InboxController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.0.5) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
+actionpack (5.0.5) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.0.5) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.0.5) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.0.5) lib/abstract_controller/base.rb:188:in `process_action'
+actionpack (5.0.5) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.0.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.0.5) lib/active_support/callbacks.rb:126:in `call'
+activesupport (5.0.5) lib/active_support/callbacks.rb:506:in `block (2 levels) in compile'
+activesupport (5.0.5) lib/active_support/callbacks.rb:455:in `call'
+activesupport (5.0.5) lib/active_support/callbacks.rb:101:in `__run_callbacks__'
+activesupport (5.0.5) lib/active_support/callbacks.rb:750:in `_run_process_action_callbacks'
+activesupport (5.0.5) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.0.5) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.0.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.0.5) lib/active_support/notifications.rb:164:in `block in instrument'
+activesupport (5.0.5) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.0.5) lib/active_support/notifications.rb:164:in `instrument'
+actionpack (5.0.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.0.5) lib/action_controller/metal/params_wrapper.rb:248:in `process_action'
+activerecord (5.0.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+actionpack (5.0.5) lib/abstract_controller/base.rb:126:in `process'
+actionview (5.0.5) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.5) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.5) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.5) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.5) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.5) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.5) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.5) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.5) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.3ms)
+Started GET "/" for 127.0.0.1 at 2017-08-24 14:49:16 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (0.3ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 14:52:06 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.3ms)
+Completed 200 OK in 15ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 14:57:13 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (136.6ms)
+Completed 500 Internal Server Error in 146ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `messages_path' for #<#<Class:0x00000003319a90>:0x00000003318460>):
+    1: <%form_for @message do |f| %>
+    2:   f.email
+    3: <%end%>
+  
+app/views/inbox/index.html.erb:1:in `_app_views_inbox_index_html_erb__2650470441352294219_26793880'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (12.2ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.1ms)
+Started GET "/" for 127.0.0.1 at 2017-08-24 14:57:48 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (123.1ms)
+Completed 500 Internal Server Error in 138ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `messages_path' for #<#<Class:0x000000046db5d8>:0x000000046cf418>):
+    1: <%form_for @message do |f| %>
+    2:   f.email
+    3: <%end%>
+  
+app/views/inbox/index.html.erb:1:in `_app_views_inbox_index_html_erb___2624032863635710624_37077780'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.4ms)
+Started GET "/" for 127.0.0.1 at 2017-08-24 14:58:35 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (117.8ms)
+Completed 500 Internal Server Error in 121ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `messages_path' for #<#<Class:0x000000046db5d8>:0x000000052def38>):
+    1: <%form_for @message, controller: :inbox, action: :create do |f| %>
+    2:   f.email
+    3: <%end%>
+  
+app/views/inbox/index.html.erb:1:in `_app_views_inbox_index_html_erb___2624032863635710624_43450160'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.7ms)
+Started GET "/" for 127.0.0.1 at 2017-08-24 14:59:05 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (89.8ms)
+Completed 500 Internal Server Error in 92ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `messages_path' for #<#<Class:0x000000046db5d8>:0x00000004da4630>):
+    1: <%form_for @message, controller: :inbox, action: :create do |f| %>
+    2:   f.email
+    3: <%end%>
+  
+app/views/inbox/index.html.erb:1:in `_app_views_inbox_index_html_erb___2624032863635710624_40708660'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.3ms)
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:00:26 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (168.8ms)
+Completed 500 Internal Server Error in 173ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `inbox_path' for #<#<Class:0x000000046db5d8>:0x000000047abf30>):
+    1: <%form_for @message, url: inbox_path do |f| %>
+    2:   f.email
+    3: <%end%>
+  
+app/views/inbox/index.html.erb:1:in `_app_views_inbox_index_html_erb___2624032863635710624_37578080'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.2ms)
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:01:37 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (2.0ms)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:03:27 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.2ms)
+Completed 200 OK in 7ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:03:49 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.6ms)
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:04:09 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.5ms)
+Completed 200 OK in 7ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:04:34 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.7ms)
+Completed 200 OK in 7ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:05:14 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (99.6ms)
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `email' for #<ActionView::Helpers::FormBuilder:0x000000046c2330>):
+    1: <%form_for @message, url: inbox_path do |f| %>
+    2:   <%= f.email%>
+    3: <%end%>
+  
+app/views/inbox/index.html.erb:2:in `block in _app_views_inbox_index_html_erb___2624032863635710624_37117120'
+app/views/inbox/index.html.erb:1:in `_app_views_inbox_index_html_erb___2624032863635710624_37117120'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.1ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.8ms)
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:08:38 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (0.8ms)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:08:49 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.0ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:09:25 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (0.9ms)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:09:32 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (0.9ms)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:09:37 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (92.7ms)
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `xt_field_tag' for #<#<Class:0x00000004753a38>:0x00000005268540>
+Did you mean?  month_field_tag
+               time_field_tag
+               date_field_tag):
+    1: <%= form_tag('/inbox') do %>
+    2:   <br>
+    3:   <%= te  xt_field_tag :email %>
+    4:   <br><br>
+    5:   <%= text_field_tag :email %>
+    6: <%end%>
+  
+app/views/inbox/index.html.erb:3:in `block in _app_views_inbox_index_html_erb___2624032863635710624_43209320'
+app/views/inbox/index.html.erb:1:in `_app_views_inbox_index_html_erb___2624032863635710624_43209320'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.0ms)
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:09:42 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (101.8ms)
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `xt_field_tag' for #<#<Class:0x00000004753a38>:0x00000004b6a720>
+Did you mean?  month_field_tag
+               time_field_tag
+               date_field_tag):
+    1: <%= form_tag('/inbox') do %>
+    2:   <br>
+    3:   <%= te  xt_field_tag :email %>
+    4:   <br><br>
+    5:   <%= text_field_tag :email %>
+    6: <%end%>
+  
+app/views/inbox/index.html.erb:3:in `block in _app_views_inbox_index_html_erb___2624032863635710624_39541080'
+app/views/inbox/index.html.erb:1:in `_app_views_inbox_index_html_erb___2624032863635710624_39541080'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.4ms)
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:09:50 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (0.9ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:10:01 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (0.8ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:10:08 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:10:24 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.2ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:10:58 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.2ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:11:39 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.2ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:11:43 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.3ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:11:47 +0300
+  
+AbstractController::ActionNotFound (The action 'create' could not be found for InboxController):
+  
+actionpack (5.0.5) lib/abstract_controller/base.rb:121:in `process'
+actionview (5.0.5) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.0.5) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (5.0.5) lib/action_controller/metal.rb:262:in `dispatch'
+actionpack (5.0.5) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (5.0.5) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:39:in `block in serve'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:26:in `each'
+actionpack (5.0.5) lib/action_dispatch/journey/router.rb:26:in `serve'
+actionpack (5.0.5) lib/action_dispatch/routing/route_set.rb:727:in `call'
+rack (2.0.3) lib/rack/etag.rb:25:in `call'
+rack (2.0.3) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.3) lib/rack/head.rb:12:in `call'
+rack (2.0.3) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.3) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.0.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.5) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.5) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.5) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.5) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:12:04 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CXF5rsrcOP6Imir8F5QXr4XZPdgppFYWsLoTg3TfdjcXVZmMA54ZBer5gjomddO7PYgyunOIRjYbulSVkjKG2A==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `pry' for #<Binding:0x00000004bbbf30>
+Did you mean?  pretty_print
+               pretty_inspect
+               pretty_print_cycle
+               try):
+  
+app/controllers/inbox_controller.rb:8:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.2ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:12:10 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CXF5rsrcOP6Imir8F5QXr4XZPdgppFYWsLoTg3TfdjcXVZmMA54ZBer5gjomddO7PYgyunOIRjYbulSVkjKG2A==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+No template found for InboxController#create, rendering head :no_content
+Completed 204 No Content in 106391ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:14:01 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CXF5rsrcOP6Imir8F5QXr4XZPdgppFYWsLoTg3TfdjcXVZmMA54ZBer5gjomddO7PYgyunOIRjYbulSVkjKG2A==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+No template found for InboxController#create, rendering head :no_content
+Completed 204 No Content in 15ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:14:04 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CXF5rsrcOP6Imir8F5QXr4XZPdgppFYWsLoTg3TfdjcXVZmMA54ZBer5gjomddO7PYgyunOIRjYbulSVkjKG2A==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+No template found for InboxController#create, rendering head :no_content
+Completed 204 No Content in 13ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:14:04 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CXF5rsrcOP6Imir8F5QXr4XZPdgppFYWsLoTg3TfdjcXVZmMA54ZBer5gjomddO7PYgyunOIRjYbulSVkjKG2A==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+No template found for InboxController#create, rendering head :no_content
+Completed 204 No Content in 12001ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:14:23 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CXF5rsrcOP6Imir8F5QXr4XZPdgppFYWsLoTg3TfdjcXVZmMA54ZBer5gjomddO7PYgyunOIRjYbulSVkjKG2A==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+No template found for InboxController#create, rendering head :no_content
+Completed 204 No Content in 15353ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:17:51 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CXF5rsrcOP6Imir8F5QXr4XZPdgppFYWsLoTg3TfdjcXVZmMA54ZBer5gjomddO7PYgyunOIRjYbulSVkjKG2A==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::MissingTemplate (Missing template inbox/create with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/andriy/FREE/postfix/app/views"
+):
+  
+app/controllers/inbox_controller.rb:14:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (24.8ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:18:36 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CXF5rsrcOP6Imir8F5QXr4XZPdgppFYWsLoTg3TfdjcXVZmMA54ZBer5gjomddO7PYgyunOIRjYbulSVkjKG2A==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (3.1ms)
+Completed 200 OK in 19ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:18:52 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CXF5rsrcOP6Imir8F5QXr4XZPdgppFYWsLoTg3TfdjcXVZmMA54ZBer5gjomddO7PYgyunOIRjYbulSVkjKG2A==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (5.3ms)
+Completed 200 OK in 28ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:18:56 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ao9wQQWwV8j//SA/y/a4/JOFl6RC7i5QRmxZKDhGbfp0q5BjzPJ2M52eiPn6F3zoK9SYxhjCPnDtbB4+3qudFQ==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:18:57 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/yFBw2E8eOn9S7JXpNZmCM88bvb4VvnC9J4aVa8HuJPhBaHhqH5ZEp8oGpGVN6Icd21hlKJ66eJfnl1DSepIfA==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (2.6ms)
+Completed 200 OK in 13ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:18:58 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.3ms)
+Completed 200 OK in 9ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:20:18 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/controllers/inbox_controller.rb:14:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.1ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.8ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:20:26 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/controllers/inbox_controller.rb:14:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.9ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:21:56 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/controllers/inbox_controller.rb:14:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.3ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.1ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:23:01 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into String):
+  
+app/controllers/inbox_controller.rb:14:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.7ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:23:03 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into String):
+  
+app/controllers/inbox_controller.rb:14:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.6ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:23:04 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into String):
+  
+app/controllers/inbox_controller.rb:14:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.9ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:23:04 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into String):
+  
+app/controllers/inbox_controller.rb:14:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.5ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:23:04 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into String):
+  
+app/controllers/inbox_controller.rb:14:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.4ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:23:10 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into String):
+  
+app/controllers/inbox_controller.rb:14:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.4ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:23:19 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Redirected to 
+Completed 500 Internal Server Error in 187ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `index_url' for #<InboxController:0x00000003033f10>
+Did you mean?  index
+               inbox_url):
+  
+app/controllers/inbox_controller.rb:15:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.2ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:24:47 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Redirected to 
+Completed 500 Internal Server Error in 178ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `index_url' for #<InboxController:0x000000024f7f20>
+Did you mean?  index
+               inbox_url):
+  
+app/controllers/inbox_controller.rb:15:in `create'
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:25:07 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Redirected to 
+Completed 500 Internal Server Error in 143ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `index_url' for #<InboxController:0x00000001b2f650>
+Did you mean?  index
+               inbox_url):
+  
+app/controllers/inbox_controller.rb:15:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.4ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 15:25:26 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bxEdxv6fUpdsYuNSrlEuqt8P26Vn2dXa2dJhQCOEvTDmKRV0rhcsT/SI0t7WICuEy0wDM+zd3fAZw6T5mPiGw==", "email"=>"", "subject"=>"", "body"=>"asda", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Redirected to http://localhost:3000/inbox
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/inbox" for 127.0.0.1 at 2017-08-24 15:25:36 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/inbox"):
+  
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.5ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.5ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (40.0ms)
+Started GET "/inbox" for 127.0.0.1 at 2017-08-24 15:25:37 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/inbox"):
+  
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered collection of /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.8ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.7ms)
+Started GET "/inbox" for 127.0.0.1 at 2017-08-24 15:25:38 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/inbox"):
+  
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered collection of /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (4.0ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.7ms)
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:25:44 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (19154.7ms)
+Completed 200 OK in 19162ms (Views: 19159.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:26:03 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (604.9ms)
+Completed 200 OK in 610ms (Views: 607.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:26:24 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1938.3ms)
+Completed 200 OK in 1953ms (Views: 1941.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:26:36 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (4.9ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:26:37 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (6.5ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:26:38 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (4.9ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:26:38 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (3.0ms)
+Completed 200 OK in 6ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:26:38 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1546.2ms)
+Completed 200 OK in 1550ms (Views: 1548.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:26:42 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (5.6ms)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:26:47 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (6.0ms)
+Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:26:48 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (6.6ms)
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:26:48 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (4.6ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:26:48 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (5.4ms)
+Completed 200 OK in 10ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:27:15 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (72573.9ms)
+Completed 200 OK in 72589ms (Views: 72578.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 15:28:31 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (555747.6ms)
+Completed 200 OK in 555753ms (Views: 555749.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inbox" for 127.0.0.1 at 2017-08-24 16:03:16 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/inbox"):
+  
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered collection of /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.7ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.9ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.0ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.8ms)
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:03:20 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (3.2ms)
+Completed 200 OK in 11ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:03:42 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (2.5ms)
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:03:44 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p6fnOhI12yS9CaHGkbU2NB/wSVbzodBuVfze2jOg5BS5gwcY23f6399qCQCgVPIgp6FGNKmNwE7+/JnM1U0U+w==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Redirected to http://localhost:3000/
+Completed 302 Found in 19ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:03:44 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (2.2ms)
+Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:03:45 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+VL4o6aDC+uLIOO5Xf7+FKeclJPan0BeBTIju6/vK2HndhiBb8EqEOlDS39sHzoAH82b8YCzUH6uMmStSQLbjg==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:03:45 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.0ms)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:03:46 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"osKeBBnxNp8RNAKO89cOvHmAl0tDFJFnX7/qBpeAzsK85n4m0LMXZHNXqkjCNsqowdGYKRk4gUf0v60QcW0+LQ==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:03:46 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.2ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:03:46 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Dz+Y/2+ZghLpqQ6gnRnNVKVpaejokWG5fRGSuch0E8URG3jdptuj6YvKpmas+AlAHThmirK9cZnWEdWvLpnjKg==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:03:46 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.4ms)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:03:47 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NMueVWqZVd6Cmmdl3xXoojOmwWnMcRtEd4+tuNZUL8Yq7353o9t0JeD5z6Pu9Cy2i/fOC5ZdC2Tcj+quMLnfKQ==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:03:47 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.6ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:03:56 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.4ms)
+Completed 200 OK in 7ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:03:57 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"REgtZ3kdpIcKw6XGSmBZgCnFOkzYCyAC6urqMem+aXtabM1FsF+FfGigDQB7gZ2UkZQ1LoInMCJB6q0nD1OZlA==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:03:57 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (2.0ms)
+Completed 200 OK in 7ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:04:02 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dZ/zHk58a5+02oL7fltDvLkAEjtLUwlAfDRd96XnoCdruxM8hz5KZNa5Kj1PuoeoAVEdWRF/GWDXNBrhQwpQyA==", "email"=>"dj@europeanexperts.com", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:04:02 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (2.1ms)
+Completed 200 OK in 6ms (Views: 4.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:05:27 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (5.3ms)
+Completed 200 OK in 19ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:06:21 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.9ms)
+Completed 200 OK in 6ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:06:42 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0/VfKcmguLnt6Kw9UMqlYiN1ItX2MMarIA3yJNXHRmHN0b8LAOKZQo+LBPthK2F2myQtt6wc1ouLDbUyMyq2jg==", "email"=>"", "subject"=>"", "body"=>"", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:06:42 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.2ms)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:06:57 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f5Aga0PlmHTZjM4beKZGtCbzhf31gU+6PWuuR9nxqY5htMBJiqe5j7vvZt1JR4KgnqKKn6+tX5qWa+lRPxxZYQ==", "email"=>"andriuhorak@gmail.com", "subject"=>"asdasd", "body"=>"asdasdasad", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `layout' for MessageMailer:Class):
+  
+app/mailers/message_mailer.rb:2:in `<class:MessageMailer>'
+app/mailers/message_mailer.rb:1:in `<top (required)>'
+app/models/message.rb:18:in `send!'
+app/controllers/inbox_controller.rb:11:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.5ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:07:25 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f5Aga0PlmHTZjM4beKZGtCbzhf31gU+6PWuuR9nxqY5htMBJiqe5j7vvZt1JR4KgnqKKn6+tX5qWa+lRPxxZYQ==", "email"=>"andriuhorak@gmail.com", "subject"=>"asdasd", "body"=>"asdasdasad", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `deliver_now' for MessageMailer:Class
+Did you mean?  delivery_method):
+  
+app/models/message.rb:18:in `send!'
+app/controllers/inbox_controller.rb:11:in `create'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.1/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.6ms)
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:08:11 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"f5Aga0PlmHTZjM4beKZGtCbzhf31gU+6PWuuR9nxqY5htMBJiqe5j7vvZt1JR4KgnqKKn6+tX5qWa+lRPxxZYQ==", "email"=>"andriuhorak@gmail.com", "subject"=>"asdasd", "body"=>"asdasdasad", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 153.6ms
+Sent mail to andriuhorak@gmail.com (20.7ms)
+Date: Thu, 24 Aug 2017 16:08:11 +0300
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <599ecfbbd7348_46adeec2e4510b2@andriy-Vostro-3560.mail>
+Subject: asdasd
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_599ecfbbd5e32_46adeec2e450918";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_599ecfbbd5e32_46adeec2e450918
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasdasad
+----==_mimepart_599ecfbbd5e32_46adeec2e450918
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasdasad
+----==_mimepart_599ecfbbd5e32_46adeec2e450918--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 188ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:08:11 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.0ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:32:46 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eS6v9GS4Qoeg02cem6PIc5K+vQwBdeJcbvvNCdt9QyZnCk/WrfpjfMKwz9iqQgxnKu+ybltZ8nzF+4ofPZCzyQ==", "email"=>"andriuhorak@gmail.com", "subject"=>"asdasd", "body"=>"asdasd", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 202.0ms
+Sent mail to andriuhorak@gmail.com (20.7ms)
+Date: Thu, 24 Aug 2017 16:32:46 +0300
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <599ed57ee13fd_4d605550149141b@andriy-Vostro-3560.mail>
+Subject: asdasd
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_599ed57edfff5_4d60555014913e8";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_599ed57edfff5_4d60555014913e8
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasd
+----==_mimepart_599ed57edfff5_4d60555014913e8
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasd
+----==_mimepart_599ed57edfff5_4d60555014913e8--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 246ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:32:46 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (3.4ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:38:12 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.1ms)
+Completed 200 OK in 5ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-08-24 16:38:25 +0300
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sDPxlwz7J3N2Kx8GJImwyVvoKz1xmEIUSjy9SdZFlbyuFxG1xbkGiBRIt8AVaHTd47kkXyu0UjThPPpfMKhlUw==", "email"=>"andriuhorak@gmail.com", "subject"=>"asdasd", "body"=>"asdasdasdasd", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 7.2ms
+Sent mail to andriuhorak@gmail.com (23.0ms)
+Date: Thu, 24 Aug 2017 16:38:25 +0300
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <599ed6d12f8af_4d605554c491669@andriy-Vostro-3560.mail>
+Subject: asdasd
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_599ed6d12e4a3_4d605554c4915f6";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_599ed6d12e4a3_4d605554c4915f6
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasdasdasd
+----==_mimepart_599ed6d12e4a3_4d605554c4915f6
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasdasdasd
+----==_mimepart_599ed6d12e4a3_4d605554c4915f6--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 35ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-24 16:38:25 +0300
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.3ms)
+Completed 200 OK in 6ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 03:10:28 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (5.6ms)
+Completed 200 OK in 22ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 03:10:39 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oh6N8qxOFOYNltI3ZkCVcz+X3ZwasmL89ILXAOcOEplkAyrbEv1Irvb5JpDXC4UH7k5p5J1vb3SkuA9ZaJxw3g==", "email"=>"andriuhorak@gmail.com", "subject"=>"sss", "body"=>"hi", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 172.3ms
+Sent mail to andriuhorak@gmail.com (30.5ms)
+Date: Fri, 17 Nov 2017 03:10:39 +0200
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <5a0e370f9e216_46f4151c218415e5@andriy-Vostro-3560.mail>
+Subject: sss
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e370f9c008_46f4151c2184144b";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e370f9c008_46f4151c2184144b
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+hi
+----==_mimepart_5a0e370f9c008_46f4151c2184144b
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+hi
+----==_mimepart_5a0e370f9c008_46f4151c2184144b--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 223ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 03:10:39 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.1ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 03:12:11 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9LDCbuTtCchd7z4ZzZt12xFroLQ08iUgYpEpMPbzn6MyrWVHWl5VgKaAyr580GWvwLIUzLMvKKgyq/FpeWH95A==", "email"=>"andriuhorak@gmail.com", "subject"=>"Thanks for time ", "body"=>"Thanks for time ", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 5.1ms
+Sent mail to andriuhorak@gmail.com (21.1ms)
+Date: Fri, 17 Nov 2017 03:12:11 +0200
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <5a0e376bd9b70_46f4151c3d041757@andriy-Vostro-3560.mail>
+Subject: Thanks for time
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e376bd8ae8_46f4151c3d04164c";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e376bd8ae8_46f4151c3d04164c
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Thanks for time 
+----==_mimepart_5a0e376bd8ae8_46f4151c3d04164c
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Thanks for time 
+----==_mimepart_5a0e376bd8ae8_46f4151c3d04164c--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 29ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 03:12:11 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.3ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 03:17:53 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (6.2ms)
+Completed 200 OK in 22ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 03:18:01 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MvPkxINm5Q5RW4ck8WuqQ3jrVb0e4Z4VTOlOvwuRXSD07kPtPdW5Rqo0c4NAILo3qTLhxZk8k50c05bmhAM/Zw==", "email"=>"andriuhorak@gmail.com", "subject"=>"Thanks for time ", "body"=>"asdasd", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 155.5ms
+Sent mail to andriuhorak@gmail.com (22.7ms)
+Date: Fri, 17 Nov 2017 03:18:02 +0200
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <5a0e38ca23cf1_4b0711c8cd846583@andriy-Vostro-3560.mail>
+Subject: Thanks for time
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e38ca22b09_4b0711c8cd8464d1";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e38ca22b09_4b0711c8cd8464d1
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasd
+----==_mimepart_5a0e38ca22b09_4b0711c8cd8464d1
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasd
+----==_mimepart_5a0e38ca22b09_4b0711c8cd8464d1--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 188ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 03:18:02 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 03:18:50 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UwlTa5nNYQ98vw3s/a6PcMhuCbsiEWq//AF35lAU9KaVFPRCJ349R4fQ+UtM5Z8EGbe9w6XMZzesO6+/34aW4Q==", "email"=>"asdasdas213wqd2qwdsacxzxdc@gmail.com", "subject"=>"Thanks for time ", "body"=>"d", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 3.2ms
+Sent mail to asdasdas213wqd2qwdsacxzxdc@gmail.com (13.7ms)
+Date: Fri, 17 Nov 2017 03:18:50 +0200
+From: from@example.com
+To: asdasdas213wqd2qwdsacxzxdc@gmail.com
+Message-ID: <5a0e38fae786e_4b0711c8db446727@andriy-Vostro-3560.mail>
+Subject: Thanks for time
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e38fae6ef8_4b0711c8db446610";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e38fae6ef8_4b0711c8db446610
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+d
+----==_mimepart_5a0e38fae6ef8_4b0711c8db446610
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+d
+----==_mimepart_5a0e38fae6ef8_4b0711c8db446610--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 19ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 03:18:50 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 03:21:53 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AOalEFJl3Qy/XpoIwWBVLZBthszcUrDd6cEEsmQXzqLG+wI57NaBREQxbq9wK0VZQbQytFuPvVW5+9zr64Ws5Q==", "email"=>"andriuhorak@gmail.com", "subject"=>"Thanks for time ", "body"=>"asdds", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 7.5ms
+Sent mail to andriuhorak@gmail.com (24.7ms)
+Date: Fri, 17 Nov 2017 03:21:53 +0200
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <5a0e39b1868f8_4b0711c8db4469f0@andriy-Vostro-3560.mail>
+Subject: Thanks for time
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e39b1855bc_4b0711c8db4468ef";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e39b1855bc_4b0711c8db4468ef
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdds
+----==_mimepart_5a0e39b1855bc_4b0711c8db4468ef
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdds
+----==_mimepart_5a0e39b1855bc_4b0711c8db4468ef--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 36ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 03:21:53 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.6ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 03:22:09 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jUcf1TSO0GDN93Y33sGCM50JVToj2JkyJQcvnJZfK5NLWrj8ij2MKDaYgpBvipJHTNDhQqQFlLp1PffFGc1J1A==", "email"=>"andriuhorak@gmail.com", "subject"=>"asasd", "body"=>"asdasd", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 136.2ms
+Sent mail to andriuhorak@gmail.com (18.5ms)
+Date: Fri, 17 Nov 2017 03:22:09 +0200
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <5a0e39c14e908_4d281d92460347f9@andriy-Vostro-3560.mail>
+Subject: asasd
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e39c14d356_4d281d9246034642";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e39c14d356_4d281d9246034642
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasd
+----==_mimepart_5a0e39c14d356_4d281d9246034642
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasd
+----==_mimepart_5a0e39c14d356_4d281d9246034642--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 176ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 03:22:09 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (2.3ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 04:34:40 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (6.1ms)
+Completed 200 OK in 22ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 04:34:51 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t3yDnVHGH/oY7uT2ZXCpE6cy2kjtulwxxeULA6bwlaZxYSS073VDsuOBEFHUO7lndutuMGpnUbmV39NaKWL34Q==", "email"=>"andriuhorak@gmail.com", "subject"=>"sad", "body"=>"asd", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 154.2ms
+Sent mail to andriuhorak@gmail.com (17.8ms)
+Date: Fri, 17 Nov 2017 04:34:52 +0200
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <5a0e4acc1de3e_68c51d0a448948de@andriy-Vostro-3560.mail>
+Subject: sad
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e4acc1cbe1_68c51d0a448947e1";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e4acc1cbe1_68c51d0a448947e1
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asd
+----==_mimepart_5a0e4acc1cbe1_68c51d0a448947e1
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asd
+----==_mimepart_5a0e4acc1cbe1_68c51d0a448947e1--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 181ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 04:34:52 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 04:38:48 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (6.3ms)
+Completed 200 OK in 23ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 04:39:00 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Xi9no02PMvjq1y6f2gQe7Tbx+euelNkSLfpcIDZ9/tOYMsCK8zxusBG42jhrTw6Z5yhNkxlJ1Jp9wIR5ue+clA==", "email"=>"andriuhorak@gmail.com", "subject"=>"Thanks for time ", "body"=>"yghbjn", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 168.2ms
+Sent mail to andriuhorak@gmail.com (20.7ms)
+Date: Fri, 17 Nov 2017 04:39:00 +0200
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <5a0e4bc44fb42_6bb817f80cc147e3@andriy-Vostro-3560.mail>
+Subject: Thanks for time
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e4bc44e8f3_6bb817f80cc146ca";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e4bc44e8f3_6bb817f80cc146ca
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+yghbjn
+----==_mimepart_5a0e4bc44e8f3_6bb817f80cc146ca
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+yghbjn
+----==_mimepart_5a0e4bc44e8f3_6bb817f80cc146ca--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 198ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 04:39:00 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 10:15:54 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (6.3ms)
+Completed 200 OK in 24ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 10:16:01 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yfBHCkBk5snGyeaI+0Il5gvjkf85+gVhTcbvDXBTrgcP7eAj/te6gT2mEi9KCTWS2jolh74nCOkd/DdU/8HMQA==", "email"=>"andriuhorak@gmail.com", "subject"=>"Thanks for time ", "body"=>"lll", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 162.2ms
+Sent mail to andriuhorak@gmail.com (23.0ms)
+Date: Fri, 17 Nov 2017 10:16:01 +0200
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <5a0e9ac1e6862_1ee91174ae8110fc@andriy-Vostro-3560.mail>
+Subject: Thanks for time
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e9ac1e5241_1ee91174ae8109d2";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e9ac1e5241_1ee91174ae8109d2
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+lll
+----==_mimepart_5a0e9ac1e5241_1ee91174ae8109d2
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+lll
+----==_mimepart_5a0e9ac1e5241_1ee91174ae8109d2--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 195ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 10:16:01 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 10:16:33 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.1ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 10:16:42 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NOsAxfmyG3+CrIgJHxEupWmetLsJfaCxYXHunz4lbXny9qfsRwFHN3nDfK6uWj7RuEcAw46grTkxSzbGsbcPPg==", "email"=>"andriuhorak@gmail.com", "subject"=>"asasd", "body"=>"oooooooooooooo", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 3.4ms
+Sent mail to andriuhorak@gmail.com (19.2ms)
+Date: Fri, 17 Nov 2017 10:16:42 +0200
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <5a0e9aea9b378_1ee91174ae8112f7@andriy-Vostro-3560.mail>
+Subject: asasd
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e9aea9a8c6_1ee91174ae8111d0";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e9aea9a8c6_1ee91174ae8111d0
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+oooooooooooooo
+----==_mimepart_5a0e9aea9a8c6_1ee91174ae8111d0
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+oooooooooooooo
+----==_mimepart_5a0e9aea9a8c6_1ee91174ae8111d0--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 25ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 10:16:42 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 10:18:53 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started OPTIONS "/notifications/counters" for 127.0.0.1 at 2017-11-17 10:18:53 +0200
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/notifications/counters"):
+  
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered collection of /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.3ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.6ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.4ms)
+Started OPTIONS "/partners/37/bulk_inspected_emails" for 127.0.0.1 at 2017-11-17 10:18:54 +0200
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/partners/37/bulk_inspected_emails"):
+  
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered collection of /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.7ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.2ms)
+Started OPTIONS "/inbox/contact_shares?entries=-1" for 127.0.0.1 at 2017-11-17 10:18:54 +0200
+  
+Started OPTIONS "/inbox/applications?entries=-1" for 127.0.0.1 at 2017-11-17 10:18:54 +0200
+ActionController::RoutingError (No route matches [OPTIONS] "/inbox/contact_shares"):
+  
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/inbox/applications"):
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered collection of /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.3ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered collection of /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.1ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.7ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.3ms)
+Started GET "/cable?token=cuwDoORWO7l-1aUx9e1jUA" for 127.0.0.1 at 2017-11-17 10:18:54 +0200
+Started GET "/cable/?token=cuwDoORWO7l-1aUx9e1jUA" [WebSocket] for 127.0.0.1 at 2017-11-17 10:18:54 +0200
+Request origin not allowed: http://localhost:8080
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/?token=cuwDoORWO7l-1aUx9e1jUA" [WebSocket] for 127.0.0.1 at 2017-11-17 10:18:54 +0200
+Started OPTIONS "/chats/?entries=-1" for 127.0.0.1 at 2017-11-17 10:18:55 +0200
+  
+ActionController::RoutingError (No route matches [OPTIONS] "/chats"):
+  
+actionpack (5.0.5) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.5) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.5) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (1.2ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/andriy/.rvm/gems/ruby-2.3.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.7ms)
+Started GET "/cable?token=cuwDoORWO7l-1aUx9e1jUA" for 127.0.0.1 at 2017-11-17 10:19:00 +0200
+Started GET "/cable/?token=cuwDoORWO7l-1aUx9e1jUA" [WebSocket] for 127.0.0.1 at 2017-11-17 10:19:00 +0200
+Request origin not allowed: http://localhost:8080
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/?token=cuwDoORWO7l-1aUx9e1jUA" [WebSocket] for 127.0.0.1 at 2017-11-17 10:19:00 +0200
+Started GET "/cable?token=cuwDoORWO7l-1aUx9e1jUA" for 127.0.0.1 at 2017-11-17 10:19:03 +0200
+Started GET "/cable/?token=cuwDoORWO7l-1aUx9e1jUA" [WebSocket] for 127.0.0.1 at 2017-11-17 10:19:03 +0200
+Request origin not allowed: http://localhost:8080
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/?token=cuwDoORWO7l-1aUx9e1jUA" [WebSocket] for 127.0.0.1 at 2017-11-17 10:19:03 +0200
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 10:20:00 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GvFR5iJWacGmAIWdhkoLAvsbiidFtmoBpgo41l8y1svc7PbPnOU1iV1vcTo3ARt2KsI+X8JrZ4n2MOCP0KC0jA==", "email"=>"andriuhorak@mail.ru", "subject"=>"asd", "body"=>"asdasd", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.1ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 5.4ms
+Sent mail to andriuhorak@mail.ru (19.7ms)
+Date: Fri, 17 Nov 2017 10:20:00 +0200
+From: from@example.com
+To: andriuhorak@mail.ru
+Message-ID: <5a0e9bb0572d6_1ee91174ae8114d7@andriy-Vostro-3560.mail>
+Subject: asd
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e9bb056354_1ee91174ae811374";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e9bb056354_1ee91174ae811374
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasd
+----==_mimepart_5a0e9bb056354_1ee91174ae811374
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasd
+----==_mimepart_5a0e9bb056354_1ee91174ae811374--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 29ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 10:20:00 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.5ms)
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 10:22:12 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (5.9ms)
+Completed 200 OK in 21ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 10:22:16 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l6MG6r6Ff4t4e0ybyBJDGzFLBiL326+77/RqpsN+zspRvqHDADYjw4MUuDx5WVNv4JKyWnAGojO/zrL/TOysjQ==", "email"=>"andriuhorak@gmail.com", "subject"=>"asd", "body"=>"asd", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 153.1ms
+Sent mail to andriuhorak@gmail.com (21.0ms)
+Date: Fri, 17 Nov 2017 10:22:16 +0200
+From: from@example.com
+To: andriuhorak@gmail.com
+Message-ID: <5a0e9c38c412a_26041e75ae4658d6@andriy-Vostro-3560.mail>
+Subject: asd
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e9c38c2f68_26041e75ae46575d";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e9c38c2f68_26041e75ae46575d
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asd
+----==_mimepart_5a0e9c38c2f68_26041e75ae46575d
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asd
+----==_mimepart_5a0e9c38c2f68_26041e75ae46575d--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 191ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 10:22:16 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 10:30:38 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.4ms)
+Completed 200 OK in 5ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/inbox" for 127.0.0.1 at 2017-11-17 10:30:59 +0200
+Processing by InboxController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lrba2sLUlR53Eemq7MoG+y7QSnWyQ1tdSAd5HQNE11JQq33zfGfJVox+HQ1dgRaP/wn+DTWeVtUYPaFEjNa1FQ==", "email"=>"andriuhorak@yopmail.com", "subject"=>"asdasd", "body"=>"asdasd", "button"=>""}
+Unpermitted parameters: utf8, authenticity_token, button
+  Rendering text template
+  Rendered text template (0.0ms)
+  Rendering html template
+  Rendered html template (0.0ms)
+MessageMailer#notify: processed outbound mail in 4.9ms
+Sent mail to andriuhorak@yopmail.com (22.5ms)
+Date: Fri, 17 Nov 2017 10:30:59 +0200
+From: from@example.com
+To: andriuhorak@yopmail.com
+Message-ID: <5a0e9e43e8897_26041e75ae4660f1@andriy-Vostro-3560.mail>
+Subject: asdasd
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5a0e9e43e7572_26041e75ae465946";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5a0e9e43e7572_26041e75ae465946
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasd
+----==_mimepart_5a0e9e43e7572_26041e75ae465946
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+asdasd
+----==_mimepart_5a0e9e43e7572_26041e75ae465946--
+
+Redirected to http://localhost:3000/
+Completed 302 Found in 30ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-17 10:30:59 +0200
+Processing by InboxController#index as HTML
+  Rendering inbox/index.html.erb
+  Rendered inbox/index.html.erb (1.2ms)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
