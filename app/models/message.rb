@@ -14,4 +14,8 @@ class Message
   validates :body, presence: true, length: { maximum: 500 }
 
 
+  def send!
+    MessageMailer.notify(self).deliver_now
+  end
+
 end
