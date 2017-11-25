@@ -5,7 +5,7 @@ class MessageMailer < ApplicationMailer
     email   = message.email
     subject = message.subject
     body    = message.body
-    body    = message.from
+    from    = message.from
 
     mail(
       to: email,

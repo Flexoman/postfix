@@ -29,7 +29,8 @@ class InboxController < ActionController::Base
     def email_params
       params.permit(:email,
                     :subject,
-                    :body)
+                    :body,
+                    :from)
     end
 
 end
