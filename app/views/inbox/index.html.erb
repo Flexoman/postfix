@@ -1,16 +1,31 @@
-<%= form_tag('/inbox') do %>
-  <br>
-  <%= label_tag :email %>
-  <br>
-  <%= text_field_tag :email %>
-  <br><br>
-  <%= label_tag :subject %>
-  <br>
-  <%= text_field_tag :subject %>
-  <br><br>
-  <%= label_tag :body %>
-  <br>
-  <%= text_area_tag :body %>
-  <br>
-  <%= button_tag :submit %>
-<%end%>
+<div class="col-6">
+  <%= form_tag('/inbox') do %>
+
+    <div class="form-group">
+      <%= label_tag :from %>
+      <%= text_field_tag :from, @from, class: "form-control" %>
+    </div>
+
+    <div class="form-group">
+      <%= label_tag :email %>
+      <%= text_field_tag :email, nil, class: "form-control" %>
+
+      <small id="emailHelp" class="form-text text-muted">Fill..</small>
+    </div>
+
+    <div class="form-group">
+      <%= label_tag :subject %>
+      <%= text_field_tag :subject, @subject, class: "form-control" %>
+    </div>
+
+
+    <div class="form-group">
+      <%= label_tag :body %>
+      <%= text_area_tag :body, @rand_body, class: "form-control" %>
+    </div>
+
+    <%= button_tag :submit, class: "btn btn-primary" %>
+  <%end%>
+
+
+</div>

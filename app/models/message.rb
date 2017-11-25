@@ -5,6 +5,7 @@ class Message
 
   attr_accessor :email,
                 :subject,
+                :from,
                 :body
 
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d-]+)*\.[a-z]+\z/i
