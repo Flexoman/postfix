@@ -4,7 +4,7 @@ class InboxController < ActionController::Base
   def index
     @message = Message.new
 
-    @from = 'info.europeanexperts.com'
+    @from = 'info'
 
     @subject = 'Greeting, it`s news'
 
