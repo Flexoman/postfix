@@ -36,5 +36,39 @@
     <%= button_tag :submit, class: "btn btn-primary" %>
   <%end%>
 
+</div>
 
+<div class="col-6">
+<table class="table">
+  <thead>
+    <tr>
+      <th>N</th>
+      <th>Email</th>
+      <th>Status</th>
+      <th>Message</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @emails.each_with_index do |data, index| %>
+      <tr>
+        <th class="Number" scope="row" style="padding: 10px 5px; width: 5%">
+          <%= index + 1 %>
+        </th>
+        <td class="Email" style="padding: 10px 5px; width: 20%">
+          <%= data[0] %>
+        </td>
+        <td class="Status" style="padding: 10px 5px; width: 10%; text-align: center;">
+          <%= data[1] %>
+        </td>
+        <td class="Message" style="padding: 10px 5px; width: 30%;">
+          <%= data[2] %>
+        </td>
+        <td class="Date" style="padding: 10px 5px; width: 20%; text-align: center;">
+          <%= Time.at data[3] %>
+        </td>
+      </tr>
+    <%end%>
+  </tbody>
+</table>
 </div>
