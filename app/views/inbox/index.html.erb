@@ -3,26 +3,35 @@
 
     <div class="form-group">
       <%= label_tag :from %>
+      <br>
       <%= text_field_tag :from, @from, class: "form-control" %>
     </div>
 
+    <br>
+
     <div class="form-group">
       <%= label_tag :email %>
+      <br>
       <%= text_field_tag :email, nil, class: "form-control" %>
-
-      <small id="emailHelp" class="form-text text-muted">Fill..</small>
     </div>
+
+    <br>
 
     <div class="form-group">
       <%= label_tag :subject %>
+      <br>
       <%= text_field_tag :subject, @subject, class: "form-control" %>
     </div>
 
+    <br>
 
     <div class="form-group">
       <%= label_tag :body %>
+      <br>
       <%= text_area_tag :body, @rand_body, class: "form-control" %>
     </div>
+
+    <br>
 
     <%= button_tag :submit, class: "btn btn-primary" %>
   <%end%>
