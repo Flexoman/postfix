@@ -14,13 +14,18 @@ class LogParser
 
   def emit &block
     open(@path) do |file|
-
       file.each_line do |line|
+        next if skip(line)
+
         json = PostfixStatusLine.parse(line, mask: false, parse_time: true)
 
         yield json
       end
     end
+  end
+
+  def skip(line)
+    line.exclude?('status=')
   end
 
 end

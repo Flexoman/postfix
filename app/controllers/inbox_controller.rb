@@ -12,39 +12,27 @@ class InboxController < ActionController::Base
 
     log_path = "/var/log/*"
 
-    paths = Dir.glob(log_path).select do |path|
-      path.match(/mail.log/)
-    end
+    # paths = Dir.glob(log_path).select do |path|
+    #   path.match(/mail.log/)
+    # end
+    paths = ['/var/log/mail.log']
 
-    @emails = {}
+    @emails = []
 
-    @data = paths.each do |path|
+    now = 1.day.ago.to_i
+    paths.each do |path|
       parser = LogParser.new( path )
 
       parser.emit do |hash|
-
-        if hash
-          @emails[hash['to']] = [
-            hash['status'],
-            hash['status_detail'],
-            hash['epoch'],
-          ]
-        end
-
+        @emails << hash if hash['epoch'] > now
       end
 
     end
 
-    @emails.delete(nil)
 
-    @emails = @emails.map do |data|
-      [ data[0],
-        data[1][0],
-        data[1][1],
-        data[1][2] ]
-    end
 
-    @emails = @emails.sort_by {|data| data[3]}.reverse
+    @emails = @emails.sort_by {|data| data['epoch']}.reverse
+    @emails = @emails[1..10000]
 
   end
 
